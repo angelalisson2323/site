@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Arquivos dos Céus">
-  <title>Arquivos dos Céus</title>
+  <meta name="description" content="Angel's Heaven — registros independentes de política, ocorrências e vida pública.">
+  <title>Arquivos dos Céus — Registros independentes</title>
   <link rel="stylesheet" href="css/estilo.css">
   <script src="js/site.js" defer></script>
 </head>
@@ -51,8 +51,8 @@
         <div class="rule"></div>
         <p class="small-label">NESTE ARQUIVO</p>
         <ul class="topic-list">
-          <li><a href="#politica">Política e decisões públicas <span>01</span></a></li>
-          <li><a href="#ocorrencias">Ocorrências cotidianas <span>01</span></a></li>
+          <li><a href="#politica">Política e decisões públicas <span id="contador-politico">0</span></a></li>
+          <li><a href="#ocorrencias">Ocorrências cotidianas <span id="contador-ocorrencia">0</span></a></li>
           <li><a href="#anotacoes">Anotações e observações <span>—</span></a></li>
         </ul>
       </aside>
@@ -60,7 +60,7 @@
 
     <section class="section-block" id="politica">
       <div class="section-heading"><div><p class="eyebrow">01 / VIDA PÚBLICA</p><h2>Política e decisões</h2></div><span class="section-note">DOCUMENTOS • ATAS • DECLARAÇÕES</span></div>
-      <article class="story-row">
+      <article data-cartegoria="politico" class="story-row">
         <div class="story-date">11 OUT <span>2026</span></div>
         <div class="story-content"><p class="category">POLÍTICA</p><h3><a href="artigos/sessao-da-camara.html">O que foi decidido na última sessão da Câmara?</a></h3><p>Um modelo de resumo de sessão pública: pauta, decisões, votos e links para documentos consultados.</p></div>
         <a class="arrow-link" href="artigos/sessao-da-camara.html" aria-label="Ler artigo">↗</a>
@@ -69,22 +69,19 @@
 
     <section class="section-block" id="ocorrencias">
       <div class="section-heading"><div><p class="eyebrow">02 / REGISTROS DO COTIDIANO</p><h2>Ocorrências</h2></div><span class="section-note">RELATOS • CRONOLOGIAS • FONTES</span></div>
-      <article class="story-row">
-        <div class="story-date">14 OUT <span>2026</span></div>
+      <article class="story-row" data-cartegoria="ocorrencia">
+        <div class="story-date">12 OUT <span>2026</span></div>
         <div class="story-content"><p class="category">OCORRÊNCIAS LOCAIS</p><h3><a href="artigos/acidente-na-rodovia.html">O acidente na rodovia e as perguntas que ficaram sem resposta</a></h3><p>Modelo de apuração de um acontecimento local, com separação entre informação confirmada e ponto em aberto.</p></div>
         <a class="arrow-link" href="artigos/acidente-na-rodovia.html" aria-label="Ler artigo">↗</a>
       </article>
 
-    </section>
-      <section class="section-block" id="ocorrencias">
-      <div class="section-heading"><div><p class="eyebrow">03 / REGISTROS DO COTIDIANO</p><h2>Ocorrências</h2></div><span class="section-note">RELATOS • CRONOLOGIAS • FONTES</span></div>
-      <article class="story-row">
+      <article class="story-row" data-cartegoria="ocorrencia">
         <div class="story-date">14 OUT <span>2026</span></div>
         <div class="story-content"><p class="category">OCORRÊNCIAS LOCAIS</p><h3><a href="artigos/acidente-na-rodovia.html">Criança mata seu própio pai, após perder uma disputa no jogo de luta.</a></h3><p>Após filho desafiar seu própio pai em uma disputa de Mortal Fighter: Stickman Legends XVI, algo supreedente acontece.</p></div>
         <a class="arrow-link" href="artigos/acidente-na-rodovia.html" aria-label="Ler artigo">↗</a>
       </article>
-    </section>
 
+    </section>
 
     <section class="newsletter" id="anotacoes">
       <p class="eyebrow">CADERNO DE CAMPO</p>
@@ -96,7 +93,7 @@
   <footer class="wrap footer">
     <a class="footer-brand" href="../index.html">ARQUIVO DOS CÉUS<span>.</span></a>
     <p>Um projeto independente de documentação e observação.</p>
-    <p class="fineprint">LOREM IPSUM DA SILVA JUNIOR</p>
+    <p class="fineprint">4ng3l.</p>
   </footer>
 </body>
 </html>
