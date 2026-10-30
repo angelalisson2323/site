@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>O Vale que Nunca Foi Reconstruído — Arquivos dos Céus</title>
+  <link rel="stylesheet" href="../css/estilo.css" />
+</head>
+<body>
+  <div class="topline">
+    <div class="wrap topmeta">
+      <span>ARQUIVOS DOS CÉUS</span>
+      <span>INVESTIGAÇÃO INDEPENDENTE</span>
+    </div>
+  </div>
+  <header class="wrap masthead">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">AC<span>.</span></span>
+      <span>
+        <strong>ARQUIVOS DOS CÉUS</strong>
+        <small>Política, ocorrências e vida pública</small>
+      </span>
+    </a>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Sobre</a>
+    </nav>
+  </header>
+  <main class="wrap article-page" id="article-page">
+    <p class="eyebrow">POLÍTICA / Nº 111</p>
+    <h1>A construção do Vale que nunca foi reconstruído.</h1>
+    <p class="article-deck">
+      Documentos apontam inconsistências em contratos milionários de recuperação econômica; senador responsável pelo projeto evita responder questionamentos.
+    </p>
+    <div class="article-meta">
+      Por Arquivos dos Céus | 4ng3l.
+      <span>•</span> 14 de Outubro de 2026
+      <span>•</span> Leitura de 16 minutos
+    </div>
+    <div class="article-rule"></div>
+
+    
+
+    <section class="restriction-notice">
+      <span class="restriction-label"> NOTIFICAÇÃO EXTRAJUDICIAL </span>
+      <h2>DOCUMENTO TEMPORARIAMENTE RESTRITO</h2>
+      <p>
+        O conteúdo original desta publicação foi temporariamente ocultado após o recebimento de uma notificação extrajudicial relacionada às informações divulgadas nesta investigação.
+      </p>
+      <p>
+        A versão integral permanece arquivada. O acesso ao documento original exige uma chave de autenticação.
+      </p>
+      <small>
+        Última atualização: 21 de Outubro de 2026.
+      </small>
+    </section>
+    <section class="access-box">
+      <h3>ACESSO AO ARQUIVO ORIGINAL</h3>
+      <p>
+        Esta publicação possui restrição de acesso.
+        Insira a chave de autenticação para visualizar
+        o conteúdo integral.
+      </p>
+      <input
+        type="password"
+        id="access-password"
+        placeholder="Insira a senha..."
+        autocomplete="off"
+      />
+     <button id="unlock-button" type="button">
+  DESBLOQUEAR DOCUMENTO
+    </button>
+      <p id="access-message"></p>
+      <div class="access-date">
+        ARQUIVO Nº 111 / ACESSO RESTRITO
+      </div>
+    </section>
+    <div class="restricted-content locked" id="restricted-content">
+      <article class="prose">
+        <p class="lead-paragraph">
+          Durante os últimos meses, o projeto de recuperação
+          econômica do Vale Norte foi apresentado como uma das
+          principais iniciativas de desenvolvimento regional.
+          Anunciado como uma oportunidade de reconstrução
+          industrial, geração de empregos e revitalização de
+          uma região historicamente negligenciada, o
+          empreendimento recebeu investimentos públicos
+          expressivos e o apoio de importantes figuras políticas.
+        </p>
+        <p>
+          Entretanto, documentos públicos, registros fotográficos
+          e informações obtidas durante uma investigação
+          independente levantam questionamentos sobre a execução
+          dos contratos e a destinação dos recursos envolvidos.
+        </p>
+        <p>
+          O projeto, defendido pelo senador responsável por sua
+          articulação política, previa uma série de intervenções
+          estruturais sob responsabilidade do Grupo Vértice,
+          conglomerado privado contratado para administrar e
+          executar parte das obras.
+        </p>
+        <p>
+          O valor dos contratos, somado aos incentivos fiscais
+          concedidos à empresa, representa uma parcela
+          significativa dos recursos destinados à recuperação
+          da região.
+        </p>
+        <p>
+          <strong>
+            O problema é que parte das obras declaradas como
+            concluídas aparentemente nunca chegou a ser finalizada.
+          </strong>
+        </p>
+        <h2>Uma reconstrução que não aconteceu</h2>
+        <p>
+          Durante uma audiência pública realizada no início
+          deste ano, o senador afirmou que a primeira fase
+          do projeto estava praticamente concluída, destacando
+          os resultados positivos e a eficiência na aplicação
+          dos recursos.
+        </p>
+        <p>
+          Entretanto, registros realizados durante
+          visitas técnicas ao Vale Norte apresentam uma
+          situação diferente. Em determinadas áreas, instalações que deveriam
+          estar operacionais ainda apresentavam sinais de
+          construção. Equipamentos relacionados nos inventários
+          oficiais não foram identificados nos locais
+          correspondentes, enquanto estruturas descritas como
+          finalizadas permaneciam sem condições aparentes
+          de funcionamento.
+        </p>
+        <p>
+          A princípio, tais divergências poderiam ser
+          justificadas por atrasos administrativos ou alterações
+          no cronograma. Contudo, a comparação entre os
+          documentos disponíveis revelou inconsistências
+          que vão além de simples problemas de execução.
+        </p>
+        <h2>O caminho do dinheiro</h2>
+        <p>
+          A análise dos contratos firmados entre o poder público
+          e o Grupo Vértice identificou pagamentos associados
+          a etapas de construção cuja execução não pôde ser
+          confirmada pelos registros consultados.
+        </p>
+        <p>
+          Também foram identificadas empresas intermediárias
+          envolvidas na prestação de serviços e no fornecimento
+          de materiais, algumas delas com participação
+          recorrente em diferentes contratos vinculados
+          ao mesmo empreendimento.
+        </p>
+        <p>
+          Os documentos levantam suspeitas sobre possíveis
+          superfaturamentos, pagamentos antecipados e utilização
+          de relatórios técnicos para justificar despesas ainda
+          não correspondentes à execução física das obras.
+        </p>
+        <h2>O envolvimento político</h2>
+        <p>
+          O senador responsável pela articulação do
+          empreendimento desempenhou papel fundamental
+          na aprovação dos recursos e na defesa pública
+          do Grupo Vértice. Registros de reuniões e declarações oficiais
+          demonstram sua proximidade institucional com
+          representantes da empresa durante o período
+          de negociação dos contratos.
+        </p>
+        <p>
+          A investigação também identificou que
+          questionamentos anteriores sobre a execução
+          do projeto foram apresentados a órgãos
+          responsáveis pela fiscalização, sem que
+          houvesse, até o momento da publicação,
+          esclarecimentos públicos suficientes.
+        </p>
+        <p>
+          Nossa equipe tentou contato com o gabinete
+          do senador e com representantes do Grupo Vértice
+          para obter esclarecimentos sobre as inconsistências
+          apresentadas.
+        </p>
+        <p>
+          Até o fechamento desta publicação, não recebemos
+          respostas aos questionamentos encaminhados.
+        </p>
+        <h2>O que resta saber?</h2>
+        <p>
+          O Vale Norte continua aguardando a conclusão
+          de obras que deveriam ter sido entregues meses
+          atrás. Moradores seguem convivendo com estruturas
+          inacabadas, promessas de desenvolvimento e a
+          ausência de respostas concretas sobre a utilização
+          dos recursos destinados à região.
+        </p>
+        <p>
+          Se os valores foram devidamente empregados,
+          por que os registros oficiais não correspondem
+          às condições encontradas no local?
+        </p>
+        <p>
+          Se as obras foram concluídas, onde estão as
+          estruturas e os equipamentos registrados
+          nos documentos?
+        </p>
+        <p>
+          E, principalmente, quem deveria ter fiscalizado
+          a aplicação desses recursos?
+        </p>
+        <blockquote>
+          Uma obra pode ser anunciada, financiada e até
+          declarada como concluída. Mas isso não significa
+          que ela realmente exista.
+        </blockquote>
+        <p>
+          O Arquivos dos Céus continuará acompanhando o caso.
+        </p>
+        <div class="private-message">
+          <p>
+            Se você está lendo isso, significa que encontrou
+            uma maneira de chegar até aqui.
+          </p>
+          <p>
+            Não sei quem você é, nem como conseguiu a chave.
+            Mas, se chegou até este ponto, talvez já tenha
+            percebido que algumas histórias são escondidas
+            por motivos que vão muito além de processos judiciais.
+          </p>
+          <p>— 4ng3l</p>
+        </div>
+
+      </article>
+
+    </div>
+    <a class="back-link" href="index.html">
+      ← Voltar à página inicial
+    </a>
+  </main>
+  <footer class="wrap footer">
+    <a class="footer-brand" href="index.html">
+      ARQUIVOS DOS CÉUS<span>.</span>
+    </a>
+    <p>
+      Um projeto independente de documentação e observação.
+    </p>
+    <p class="fineprint">
+      Conteúdo fictício desenvolvido para uma campanha de RPG.
+    </p>
+  </footer>
+   <script src="../js/bloq.js"></script>
+</body>
+</html>
