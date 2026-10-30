@@ -1,78 +1,104 @@
 <!doctype html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Modelo de artigo — Arquivo Civil</title>
-    <link rel="stylesheet" href="css/estilo.css" />
-  </head>
-  <body>
-    <div class="topline">
-      <div class="wrap topmeta">
-        <span>ARQUIVO CIVIL</span><span>MODELO DE PUBLICAÇÃO</span>
-      </div>
-    </div>
-    <header class="wrap masthead">
-      <a class="brand" href="index.html"
-        ><span class="brand-mark">AC<span>.</span></span
-        ><span
-          ><strong>ARQUIVO CIVIL</strong
-          ><small>Política, ocorrências e vida pública</small></span
-        ></a
-      >
-      <nav><a href="index.html">Início</a><a href="sobre.html">Sobre</a></nav>
-    </header>
-    <main class="wrap article-page">
-      <p class="eyebrow">CATEGORIA / DATA</p>
-      <h1>Título da publicação</h1>
-      <p class="article-deck">
-        Escreva aqui um resumo curto que apresente a questão central do artigo
-        sem revelar tudo de uma vez.
-      </p>
-      <div class="article-meta">
-        Por Nome do autor <span>•</span> 00 de mês de 2026
-        <span>•</span> Leitura de 4 minutos
-      </div>
-      <div class="article-rule"></div>
-      <article class="prose">
-        <p class="lead-paragraph">
-          Comece com o acontecimento principal: o que ocorreu, onde e quando.
-          Prefira frases diretas e deixe claro o que foi observado pessoalmente
-          e o que veio de outras fontes.
-        </p>
-        <h2>O que sabemos</h2>
-        <p>
-          Reúna aqui as informações confirmadas. Quando possível, indique de
-          onde veio cada informação e quando ela foi publicada.
-        </p>
-        <h2>O que ainda precisa ser confirmado</h2>
-        <p>
-          Registre contradições, lacunas e perguntas em aberto. Evite apresentar
-          suposições como se fossem fatos comprovados.
-        </p>
-        <blockquote>
-          “Uma anotação ouvida no local, transcrita com contexto e data.”
-        </blockquote>
-        <h2>Fontes e documentos</h2>
-        <ul>
-          <li>Documento ou fonte consultada — inserir link ou referência.</li>
-          <li>
-            Relato de testemunha — indicar quando e em que circunstâncias foi
-            obtido.
-          </li>
-        </ul>
-        <p class="editor-note">
-          <strong>Nota do autor:</strong> acrescente aqui uma observação
-          pessoal, deixando claro que se trata de interpretação e não de fato
-          confirmado.
-        </p>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Angel's Heaven — registros independentes de política, ocorrências e vida pública.">
+  <title>Arquivos dos Céus — Registros independentes</title>
+  <link rel="stylesheet" href="css/estilo.css">
+  <script src="js/site.js" defer></script>
+</head>
+<body>
+  <div class="topline"><div class="wrap topmeta"><span>PUBLICAÇÕES INDEPENDENTES</span><span id="today">REGISTROS • EDIÇÃO DIGITAL</span></div></div>
+  <header class="wrap masthead">
+    <a class="brand" href="index.html" aria-label="Arquivos dos Céus, página inicial">
+      <span class="brand-mark">AC<span>.</span></span>
+      <span><strong>ARQUIVO DOS CÉUS</strong><small>Política, ocorrências e vida pública</small></span>
+    </a>
+    <nav aria-label="Navegação principal">
+      <a class="active" href="index.html">Início</a>
+      <a href="#politica">Política</a>
+      <a href="#ocorrencias">Ocorrências</a>
+      <a href="sobre.html">Sobre</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="intro">
+      <p class="eyebrow">OBSERVAÇÃO • DOCUMENTAÇÃO • CONTEXTO</p>
+      <h1>O que acontece merece ser registrado.</h1>
+      <p class="intro-copy">Um lugar onde a informação espalha independente de acontecimentos públicos, decisões políticas e ocorrências do cotidiano. Fatos, documentos e perguntas reunidos em um só lugar.</p>
+    </section>
+
+    <section class="feature-grid" aria-label="Publicação em destaque">
+      <article class="lead-card">
+        <div class="lead-image">
+          <img src="images/ovo.png" alt="Porta mala, ovo intacto">
+          <span>REGISTRO Nº 114</span>
+        </div>
+        <div class="lead-body">
+          <p class="category">OCORRÊNCIAS LOCAIS <span></span></p>
+          <h2><a href="artigos/acidente-na-rodovia.html">O acidente na rodovia e o ovo que permaneceu intacto.</a></h2>
+          <p class="summary">Após uma colisão durante a chuva, os destroços pareciam confirmar um acidente comum. Mas, entre os objetos encontrados no porta-malas, havia algo que não deveria ter sobrevivido ao impacto. </p>
+          <div class="byline">Por Redação do Arquivo dos Céus <span>—</span> 14 de outubro de 2026</div>
+          <a class="read-link" href="artigos/acidente-na-rodovia.html">LER REGISTRO <span>↗</span></a>
+        </div>
       </article>
-      <a class="back-link" href="index.html">← Voltar à página inicial</a>
-    </main>
-    <footer class="wrap footer">
-      <a class="footer-brand" href="index.html">ARQUIVO CIVIL<span>.</span></a>
-      <p>Um projeto independente de documentação e observação.</p>
-      <p class="fineprint">Conteúdo demonstrativo para uso em RPG.</p>
-    </footer>
-  </body>
+      <aside class="side-note">
+        <p class="eyebrow">NOTA EDITORIAL</p>
+        <h3>Registrar não é concluir.</h3>
+        <p>Este espaço separa fatos documentados, relatos de terceiros e hipóteses. Uma informação incompleta não é, por si só, prova de algo maior.</p>
+        <div class="rule"></div>
+        <p class="small-label">NESTE ARQUIVO</p>
+        <ul class="topic-list">
+          <li><a href="#politica">Política e decisões públicas <span id="contador-politico">0</span></a></li>
+          <li><a href="#ocorrencias">Ocorrências cotidianas <span id="contador-ocorrencia">0</span></a></li>
+          <li><a href="#anotacoes">Anotações e observações <span>—</span></a></li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="section-block" id="politica">
+      <div class="section-heading"><div><p class="eyebrow">01 / VIDA PÚBLICA</p><h2>Política e decisões</h2></div><span class="section-note">DOCUMENTOS • ATAS • DECLARAÇÕES</span></div>
+      <article data-cartegoria="politico" class="story-row">
+        <div class="story-date">11 OUT <span>2026</span></div>
+        <div class="story-content"><p class="category">POLÍTICA</p><h3><a href="artigos/sessao-da-camara.html">O que foi decidido na última sessão da Câmara?</a></h3><p>Um modelo de resumo de sessão pública: pauta, decisões, votos e links para documentos consultados.</p></div>
+        <a class="arrow-link" href="artigos/sessao-da-camara.html" aria-label="Ler artigo">↗</a>
+      </article>
+      <article data-cartegoria="politico" class="story-row">
+        <div class="story-date">13 OUT <span>2026</span></div>
+        <div class="story-content"><p class="category">POLÍTICA</p><h3><a href="artigos/vale.html">A construção do Vale que nunca foi reconstruído.</a></h3><p>Documentos apontam inconsistências em contratos milionários de recuperação econômica.</p></div>
+        <a class="arrow-link" href="artigos/vale.html" aria-label="Ler artigo">↗</a>
+      </article>
+    </section>
+
+    <section class="section-block" id="ocorrencias">
+      <div class="section-heading"><div><p class="eyebrow">02 / REGISTROS DO COTIDIANO</p><h2>Ocorrências</h2></div><span class="section-note">RELATOS • CRONOLOGIAS • FONTES</span></div>
+      <article class="story-row" data-cartegoria="ocorrencia">
+        <div class="story-date">12 OUT <span>2026</span></div>
+        <div class="story-content"><p class="category">OCORRÊNCIAS LOCAIS</p><h3><a href="artigos/acidente-na-rodovia.html">O acidente na rodovia e o ovo que permaneceu intacto.</a></h3><p>Após uma colisão durante a chuva, os destroços pareciam confirmar um acidente comum. Mas, entre os objetos encontrados no porta-malas, havia algo que não deveria ter sobrevivido ao impacto.</p></div>
+        <a class="arrow-link" href="artigos/acidente-na-rodovia.html" aria-label="Ler artigo">↗</a>
+      </article>
+
+      <article class="story-row" data-cartegoria="ocorrencia">
+        <div class="story-date">14 OUT <span>2026</span></div>
+        <div class="story-content"><p class="category">OCORRÊNCIAS LOCAIS</p><h3><a href="artigos/acidente-na-rodovia.html">Criança mata seu própio pai, após perder uma disputa no jogo de luta.</a></h3><p>Após filho desafiar seu própio pai em uma disputa de Mortal Fighter: Stickman Legends XVI, algo supreedente acontece.</p></div>
+        <a class="arrow-link" href="artigos/acidente-na-rodovia.html" aria-label="Ler artigo">↗</a>
+      </article>
+
+    </section>
+
+    <section class="newsletter" id="anotacoes">
+      <p class="eyebrow">CADERNO DE CAMPO</p>
+      <h2>Nem todo registro começa com uma resposta.</h2>
+      <p>Alguns começam com uma data, um documento, uma frase anotada às pressas ou uma discrepância que vale a pena conferir.</p>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <a class="footer-brand" href="../index.html">ARQUIVO DOS CÉUS<span>.</span></a>
+    <p>Um projeto independente de documentação e observação.</p>
+    <p class="fineprint">4ng3l.</p>
+  </footer>
+</body>
 </html>
