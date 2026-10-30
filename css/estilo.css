@@ -509,3 +509,108 @@ a:hover {
     margin: 36px 0 48px;
   }
 }
+
+
+    .restriction-notice {
+      margin: 30px 0;
+      padding: 24px;
+      background: #eeeeee;
+      border-left: 4px solid #8c2929;
+    }
+    .restriction-notice h2 {
+      font-size: 15px;
+      letter-spacing: 1px;
+      margin-top: 0;
+    }
+    .restriction-notice p {
+      font-size: 14px;
+      line-height: 1.7;
+      color: #555;
+    }
+    .restriction-label {
+      font-size: 11px;
+      letter-spacing: 1.5px;
+      color: #8c2929;
+      font-weight: bold;
+    }
+    .restricted-content {
+      position: relative;
+      transition: filter .5s ease;
+    }
+    .restricted-content.locked {
+      filter: blur(5px);
+      user-select: none;
+      pointer-events: none;
+    }
+    .access-box {
+      position: relative;
+      z-index: 2;
+      margin: -20px auto 40px;
+      padding: 30px;
+      max-width: 480px;
+      text-align: center;
+      background: #f1f1f1;
+      border: 1px solid #d5d5d5;
+    }
+    .access-box h3 {
+      font-size: 15px;
+      letter-spacing: 1px;
+    }
+    .access-box p {
+      font-size: 13px;
+      color: #666;
+      line-height: 1.6;
+    }
+    .access-box input {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 12px;
+      margin: 15px 0 10px;
+      border: 1px solid #bbb;
+      background: white;
+      font-family: inherit;
+    }
+    .access-box button {
+      width: 100%;
+      padding: 13px;
+      border: none;
+      background: #292929;
+      color: white;
+      cursor: pointer;
+      font-size: 12px;
+      letter-spacing: 1px;
+      font-family: inherit;
+    }
+    .access-box button:hover {
+      background: #555;
+    }
+
+    #access-message {
+      margin-top: 12px;
+      font-size: 12px;
+      color: #9b2929;
+    }
+    .private-message {
+      display: none;
+      margin: 25px 0;
+      padding: 20px;
+      background: #e9e9e9;
+      border-left: 3px solid #292929;
+      font-style: italic;
+    }
+    .article-page.unlocked .private-message {
+      display: block;
+    }
+    .article-page.unlocked .access-box {
+      display: none;
+    }
+    .article-page.unlocked .restricted-content {
+      filter: none;
+      user-select: auto;
+      pointer-events: auto;
+    }
+    .access-date {
+      font-size: 11px;
+      color: #888;
+      margin-top: 15px;
+    }
